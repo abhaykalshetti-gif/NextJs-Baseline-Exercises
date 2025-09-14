@@ -91,6 +91,26 @@ export default function Home() {
           <p className="text-sm text-gray-500">
            Connecting to MongoDB database and performing  Data Insertion, Delition and Updation from database</p>
         </Link>
+
+<Link
+          href="/errorhandling-loadingstates"
+          className="block p-4 rounded-xl bg-white shadow-md hover:shadow-lg border hover:border-black-500 transition"
+        >
+          <h2 className="text-lg font-semibold text-gray-800">
+             Error handling and Loading states in Nextjs
+          </h2>
+          <p className="text-sm text-gray-500">
+          Create error.tsx and loading.tsx inside any route folder to handle route-level errors and loading states.</p>
+        </Link>
+
+         <Link
+          href="/appoinment-scheduler"
+          className="block p-4 rounded-xl bg-white shadow-md hover:shadow-lg border hover:border-black-500 transition"
+        >
+          <h2 className="text-lg font-semibold text-gray-800">
+             NextJs Project Demo
+          </h2>
+        </Link>
       </div>
     </div>
   );
